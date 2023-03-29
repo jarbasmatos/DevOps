@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+    - shell: 'echo hello > /tmp/world.txt'
+  become: yes
